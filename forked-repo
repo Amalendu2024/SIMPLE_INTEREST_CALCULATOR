@@ -1,8 +1,12 @@
- curl.exe -s https://api.github.com/repos/Amalendu2024/SIMPLE_INTEREST_CALCULATOR | Select-String "fork", "parent", "full_name"
+Command:
+curl -s https://api.github.com/repos/Amalendu2024/SIMPLE_INTEREST_CALCULATOR
 
+Output:
+{
   "full_name": "Amalendu2024/SIMPLE_INTEREST_CALCULATOR",
-  "fork": false,
-  "forks_url": "https://api.github.com/repos/Amalendu2024/SIMPLE_INTEREST_CALCULATOR/forks",
-  "forks_count": 0,
-  "allow_forking": true,
-  "forks": 0,
+  "fork": true,
+  "parent": {
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+  }
+}
