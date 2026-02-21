@@ -1,3 +1,5 @@
+ curl.exe -s https://api.github.com/repos/Amalendu2024/SIMPLE_INTEREST_CALCULATOR | Select-String "fork", "parent", "full_name"
+
   "full_name": "Amalendu2024/SIMPLE_INTEREST_CALCULATOR",
   "fork": false,
   "forks_url": "https://api.github.com/repos/Amalendu2024/SIMPLE_INTEREST_CALCULATOR/forks",
