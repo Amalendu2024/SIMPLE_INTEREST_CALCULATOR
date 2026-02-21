@@ -1,6 +1,23 @@
-"label": "Amalendu2024:bug-fix-typo",
-"ref": "bug-fix-typo",
-"repo": {
-  "full_name": "Amalendu2024/SIMPLE_INTEREST_CALCULATOR",
-  "fork": true
-}
+Command:
+curl -s https://api.github.com/repos/Amalendu2024/SIMPLE_INTEREST_CALCULATOR/pulls
+
+Output:
+[
+  {
+    "url": "https://api.github.com/repos/Amalendu2024/SIMPLE_INTEREST_CALCULATOR/pulls/1",
+    "id": 123456789,
+    "state": "open",
+    "title": "Fixing typo in script",
+    "user": {
+      "login": "Amalendu2024"
+    },
+    "head": {
+      "label": "Amalendu2024:bug-fix-typo",
+      "ref": "bug-fix-typo",
+      "repo": {
+        "full_name": "Amalendu2024/SIMPLE_INTEREST_CALCULATOR",
+        "fork": true
+      }
+    }
+  }
+]
