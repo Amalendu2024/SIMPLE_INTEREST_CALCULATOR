@@ -1,0 +1,3 @@
+PS C:\Users\Subham\Desktop\SIMPLE_INTEREST_CALCULATOR> git branch -vv
+  bug-fix-typo 76c24bc Fixing a typo in the script
+* main         76c24bc [origin/main: ahead 2] Fixing a typo in the script
