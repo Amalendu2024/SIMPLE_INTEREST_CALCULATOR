@@ -1,0 +1,9 @@
+PS C:\Users\Subham\Desktop\SIMPLE_INTEREST_CALCULATOR> git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+PS C:\Users\Subham\Desktop\SIMPLE_INTEREST_CALCULATOR> git merge bug-fix-typo
+Updating 4435a9f..76c24bc
+Fast-forward
+ simple-interest.sh | Bin 521 -> 571 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
